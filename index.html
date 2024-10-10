@@ -3,21 +3,27 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
    <title>Document</title>
+
+   <script src="https://kit.fontawesome.com/8f82af4760.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
    <div class="container">
-      <h2>Создать аккаунт</h2>
-   </div>
+      <div class="header">
+         <h2>Создать аккаунт</h2>
+      </div>
+   
    <form action="" class="form" id="form">
-      <div class="form-control">
+      <div class="form-control succes">
          <label>Имя пользователя</label>
          <input type="text" placeholder="введите Имя" id="username">
          <i class="fas fa-check-circle"></i>
          <i class="fas fa-exclamation-circle"></i>
          <small>Error message</small>
       </div>
-      <div class="form-control">
+      <div class="form-control error">
          <label>Электронная почта</label>
          <input type="email" placeholder="mail@mail.ru" id="email">
          <i class="fas fa-check-circle"></i>
@@ -38,7 +44,9 @@
          <i class="fas fa-exclamation-circle"></i>
          <small>Error message</small>
       </div>
-      <button>Отправить</button>
+  
+      <button>Отправить</button> </div>
    </form>
+  <script src="script.js"></script> 
 </body>
 </html>
